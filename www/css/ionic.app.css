@@ -7037,7 +7037,7 @@ input[type="color"] {
   padding-top: 2px;
   padding-left: 0;
   height: 34px;
-  color: #111;
+  color: black;
   vertical-align: middle;
   font-size: 14px;
   line-height: 16px; }
@@ -9081,3 +9081,14 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+.bar .item-input-wrapper {
+  background: white !important; }
+  .bar .item-input-wrapper input {
+    background: white !important; }
+
+.item {
+  border-color: white !important; }
+  .item p {
+    color: black;
+    font-size: 1em; }

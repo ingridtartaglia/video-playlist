@@ -18,6 +18,27 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+$input-color: black;
+
+
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+
+.bar {
+    .item-input-wrapper {
+        background: white !important;
+        input {
+            background: white !important;
+        }
+    }
+}
+
+
+.item {
+    border-color: white !important;
+    p {
+        color: black;
+        font-size: 1em;
+    }
+}
